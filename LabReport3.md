@@ -28,6 +28,7 @@
     for(int i = 0; i < arr.length; i += 1) {
       arr[i] = arr[arr.length - i - 1];
     }
+  }
 ```
 
 ## And the test that doesnt fail:
@@ -45,4 +46,34 @@
 
 ## Fail inducing test:
 
-![Image](
+![Image](Fail test.png)
+
+# No Fail inducing test:
+
+![Image](No fail test.png)
+
+# This is the code before:
+
+```
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
+
+# This is the code after:
+
+```
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length / 2; i += 1) {
+      int temp = arr[i];
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length i - 1] = temp;
+    }
+  }
+
+```
+
+> This code fixes the reverseInPlace because it swaps the elemts at position i and arr.length - i - 1 and stores it in a temporary variable. This ensures that every element is only moved once so it is reversed. The code beofre makes it so that once you swap past the middle the array will start swapping elements back.
+
