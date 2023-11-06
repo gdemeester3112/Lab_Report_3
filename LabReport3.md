@@ -40,3 +40,9 @@
     assertArrayEquals(new int[]{1}, input1);
 	}
 ```
+
+# These are the two resutls I got:
+
+## Fail inducing test:
+
+![Image](
