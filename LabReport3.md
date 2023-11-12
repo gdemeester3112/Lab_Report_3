@@ -77,3 +77,6 @@
 
 > This code fixes the reverseInPlace because it swaps the elemts at position i and arr.length - i - 1 and stores it in a temporary variable. This ensures that every element is only moved once so it is reversed. The code beofre makes it so that once you swap past the middle the array will start swapping elements back that have already been modified so for example if i is the last element in the array, the first element which has the value of the last element will be assigned to the last element aswell.
 
+# These are my examples of using 
+
+
