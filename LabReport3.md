@@ -122,10 +122,11 @@
 
 ![Image](Patternbio.png)
 
+> This command will search the occurance of the word "flight" in the specified file.
 
 ![Image](Pattern911.png)
 
-
+> This command will search the occurance of the word "have" in the specified file.
 
 
 
