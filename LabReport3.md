@@ -85,6 +85,46 @@
 
 ![Image](GPT3.png)
 
+> I used 3 different commands, -r, -c, -v and also used a word to search for a pattern
+
+
+## This is what I did for -r
+
+![Image](rterrorist.png)
+
+> This command will search all the files in 911report directory and print each line that contains the specified word
+
+![Image](rgenome.png)
+
+> This command will search all the files in biomed directory and print each line that contains the specified word
+
+## This is what I did for -c 
+
+![Image](cterrorist.png)
+
+> This command will count all the lines that contains the specified word in a specific file in 911report
+
+![Image](cgenome.png)
+
+> This command will go over all the files in biomed and count all the lines that contains the specified word for each file in biomed
+
+## This is what I did for -v
+
+![Image](vattack.png)
+
+> This command will display every line that does not include the specified word in it in a specific file.
+
+![Image](vDNA.png)
+
+> This command will display every line that does not include the specified word in it in a specific file.
+
+## This is what I did to find a text pattern in a file
+
+![Image](Patternbio.png)
+
+
+![Image](Pattern911.png)
+
 
 
 
